@@ -1,0 +1,48 @@
+<!--
+  Generated template for the ConfigureTestPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Configurar Practica</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+    <p>Cantidad Preguntas</p>
+    <p>{{id_examen}}</p>
+    <ion-item>
+        <ion-label>{{quantity_questions}} </ion-label>
+      <ion-range min="1" max="20" [(ngModel)]="quantity_questions" color="secondary">
+        <ion-label range-left>1</ion-label>
+        <ion-label range-right>20</ion-label>
+      </ion-range>
+    </ion-item>
+    
+    <p>Tiempo por cada Pregunta en Segundos</p>
+    <ion-item>
+        <ion-label>{{quantity_time}} </ion-label>
+      <ion-range min="30" max="180"  step="10" [(ngModel)]="quantity_time" color="secondary">
+        <ion-label range-left>30</ion-label>
+        <ion-label range-right>180</ion-label>
+      </ion-range>
+    </ion-item>
+    <br>
+    <ion-item>
+        <ion-label>Dificultad</ion-label>
+        <ion-select [(ngModel)]="Level">
+          <ion-option value="FACIL">Facil</ion-option>
+          <ion-option value="MEDIO">Medio</ion-option>
+          <ion-option value="DIFICIL">Dificil</ion-option>
+        </ion-select>
+      </ion-item>
+    <br>
+    <button ion-button full (click)="insertarTest(id_examen,1,1,Level)"> Empezar</button>
+</ion-list>
+</ion-content>

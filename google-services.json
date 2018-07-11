@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "344328549857",
+    "firebase_url": "https://teorico-manejo-cr.firebaseio.com",
+    "project_id": "teorico-manejo-cr",
+    "storage_bucket": "teorico-manejo-cr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344328549857:android:a262481f7cbbb8c8",
+        "android_client_info": {
+          "package_name": "com.hormi.code.teorico"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "344328549857-l6hkjjg6td8g8r8ii3qgb24465f7vh39.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hormi.code.teorico",
+            "certificate_hash": "9862a83150cc10863cd5d99fa4c04704e88c3659"
+          }
+        },
+        {
+          "client_id": "344328549857-gk29paksvv4qa810oehcac906psge3cv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCXEl2Da2xoeMd6aQDKIeB6t-XO1UCRIc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "344328549857-gk29paksvv4qa810oehcac906psge3cv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

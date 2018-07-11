@@ -1,0 +1,8 @@
+{
+  "name": "teorico_manejo",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

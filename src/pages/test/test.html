@@ -1,0 +1,25 @@
+<!--
+  Generated template for the TestPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Prueba</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+<h2 center>{{pregunta}}</h2>
+<h3>Tiempo: {{time}}</h3>
+<span ion-span>Restantes: {{quantity_questions-1}}</span>
+<br><br>
+<button ion-button full primary (click)='newQuestion(A)'>A:{{A}}</button>
+<br>
+<button ion-button full primary (click)='newQuestion(B)' >B:{{B}}</button>
+<br>
+<button ion-button full primary (click)='newQuestion(C)' >C:{{C}}</button>
+</ion-content>
